@@ -3,6 +3,7 @@ on:
   pull_request:
     branches:
     - master
+    - pr_validator_regex 
     types: [opened, edited, synchronize]
 jobs:
   validate:
